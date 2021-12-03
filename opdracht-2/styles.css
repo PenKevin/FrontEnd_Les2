@@ -26,7 +26,7 @@ ul{
     width: 250px;
 }
 
-div, form{
+.four, form{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,6 +34,15 @@ div, form{
 }
 .five{
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
+.five article{
+    flex-direction: column;
+    width: 360px;
+    flex: 1 0 auto;
+    /* flex: grow shrink basis(minimale grote) */
+}
+
+
 /* Schrijf hier  jouw CSS! */
